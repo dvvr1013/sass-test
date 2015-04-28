@@ -1,0 +1,140 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Sass BootStrap Test</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <html>
+	<body>
+<!--
+		<div class="message">
+			<img src="public/images/ic_finish.png">
+			<span style=""> <b>Done!</b> </span>
+         <div>
+			<img width="75%" src="/public/images/bg_seperateline.png">
+		    <h3>Find out what you can do next:</h3>
+		 </div>  
+       </div>
+        <div class="container">
+			<ul class="block">
+				<li>
+				  <div class="padding">
+					<img src="/public/images/ic_gotovideo.png" alt="Play Video">
+				    <div class="p3">
+				       <p>How to Scan</p>
+				    </div >
+				  </div>  
+				  <div class="pos1">
+				 	<img src="/public/images/img_item_2.png" >
+				       <p>Customize your AiO! </p>
+				       <p> with Web App - <br>Photo Board</br></p>
+					</div>
+				  </li>
+				 <li> 
+                    <div class="padding2">
+					 <p><b>Video Tutorial</b></p>
+                   </div>
+                   <div class="padding3">
+                      <p><b>Get the latest software</b></p>
+                   </div>
+					<div class="padding4">
+                        <p><b>FAQ</b></p>
+                    </div>   
+				</li>
+			</ul>
+		</div>
+
+     <div class="form-group">
+	 	  <input>
+	 	 <button>SUBSCRIBE</button>
+ 	 </div>
+ 	 <div class="som">
+ 	    <a href="default.asp"><img src="/public/images/ic_fb.png" alt="FB"></a>
+ 	 	<a href="default.asp"><img src="/public/images/ic_wixin.png" alt="WIXIN"></a>
+ 	 	<a href="default.asp"><img src="/public/images/ic_qq.png" alt="QQ"></a>
+ 	  </div>
+ 	 <div class="footer2">
+          <img src="/public/images/ic_lang.png" align="middle">
+                  <h7>US-English</h7>
+     </div>
+  -->
+  <h1>BOOTSTRAP TEST</h1>
+  <hr></hr>
+
+ <div class="row">
+    <div class="col-sm-3 col-md-6 col-xs-2" >
+         <ul class="list1">
+  		    <li><b>Product</b></li>
+  		    <li><a href="#">daVinci 1.0 </a></li>
+  			<li><a href="#">daVinci 2.0 Duo</a></li>
+  			<li><a href="#">Filament</a> </li>
+ 		</ul> 
+    </div>
+    <div class="col-sm-6 col-md-6 col-xs-2" >
+         <ul class="list2">
+    	     <li><b>Galery</b></li>
+    	     <li><a href="#">Upload Model </a></li>
+		     <li><a href="#">Artist Collection</a> </li>
+		     <li><a href="#">Web App</a> </li>
+		     <li><a href="#">Galery</a> </li>
+		     <li><a href="#">Free Download </a></li>
+		     <li><a href="#">New Release</a> </li>
+	     </ul>
+     </div>
+
+    <div class="col-sm-6 col-md-6 col-xs-2" >
+		<ul class="list2">
+  			<li><b>News</b></li>
+  			<li><a href="#">Event </a></li>
+  			<li><a href="#">Press Release</a> </li>
+  			<li><a href="#" >STORE </a></li>
+  			<li><a href="#" >E-Taller </a></li>
+ 		</ul>
+ 	</div>
+ 	<div class="col-sm-6 col-md-6 col-xs-2" >
+		<ul class="list4">
+ 			<li><b>Help Center</b></li>
+ 		 	<li><a href="#" > How to Solve Problem</a> </li>
+  			<li><a href="#" > Video Tutorial</a> </li>
+  			<li><a href="#" > Download and Document</a> </li>
+  			<li><a href="#" > Support Tickets</a></li>
+  			<li><a href="#" > Latest Update</a></li>
+		</ul>
+	</div>
+	<div class="col-sm-6 col-md-6 col-xs-2" >
+		<ul class="list5">	
+			<li><b>Sign</b></li>
+			<li><a href="#" > Profiles</a></li>
+    		<li><a href="#" > My Galery</a> </li>
+    		<li><a href="#" > Regist</a></li> 
+		</ul>
+    </div> 
+	<div class="col-sm-6 col-md-6 col-xs-2" >
+		<ul class="list6">
+			<li><b>About US</b></li>
+			<li><a href="#"> Contact Us</a> </li>
+			<li><a href="#"> Privacy Policy</a> </li>
+			<li><a href="#"> Term of Use</a> </li>
+			<li><a href="#"> Career</a> </li>
+		</ul>
+    </div> -->
+
+    <div class="footer3">
+       <img src="/public/images/ic_logo_xyz.png">
+       <img src="/public/images/ic_kinpo.png">
+         <span font size="1" >Copyright 2014 XYZprinting All Rights Reserved...</span>
+    </div>
+ 
+</body>
+</html>

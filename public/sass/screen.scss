@@ -54,6 +54,8 @@ p {
     color:$primary-color;
 }	
 .p3 p{
+    position: $location;
+    @include div-position(50px, 250px);
     font-size: $fsize;
     color: white;
     text-align: left;
@@ -78,91 +80,121 @@ p {
 }    
 .padding {
     position: $location;
-    @include div-position(200px, 180px);
+    @include div-position(300px, 180px);
     @include div-size(360px,300px);
     background-color: #EC1E79;
     font-color: white;
     text-align: left;
  }
  .pos1 {
-     position: $location;
-	 @include div-position(562px, 180px);
-     @include div-size(503px,300px);
+    position: $location;
+	  @include div-position(666px, 180px);
+    @include div-size(503px,300px);
   } 
+.pos21 p{
+    position: $location;
+    @include div-position(50px, 240px);
+    text-align: left;
+    font-size: $fsize;
+    color: white;
+    }
+
 .padding2 {
      position: $location;
-     @include div-position(200px, 484px);
+     @include div-position(300px, 484px);
      @include div-size(360px,150px);
      background-color:#f6de40;
      text-align: $align;
+ 
+  .pad2 p{
+    position: $location;
+    @include div-position(50px, 50px);
+    text-align: left;
+    font-size: $fsize;
+    }
  }
 .padding3 {
       position: $location;
-      @include div-position(564px, 484px);
+      @include div-position(666px, 484px);
       @include div-size(360px,150px);
       background-color:aqua;
       text-align: $align;  
   }
-  
+.pad3 p{
+    position: $location;
+    @include div-position(50px, 50px);
+    text-align: left;
+    font-size: $fsize;
+    }
   .padding4 {
       position: $location;
-      @include div-position(927px, 484px);
+      @include div-position(1029px, 484px);
       @include div-size(140px,150px);
-      background-color:SpringGreen ;
-      text-align: $align;
+      background-color:SpringGreen ;     
    }
-
+ .pad4{
+    position: $location;
+    @include div-position(30px, 50px);
+    text-align: left;
+    font-size: $fsize;
+}
 .form-group {
     position: $location;
-    @include div-position(350px, 650px);
+    @include div-position(150px, 20px);
     }
+.som{
+    position: $location;
+  @include div-position(450px, 10px);
+  li{
+    text-align: left;
+      color: white;
+      font-size: 15px;
+  }
+}
 .list1{
 	position: $location;
-	@include div-position(200px, 720px);
+	@include div-position(60px, 100px);
 }
 .list2{
 	position: $location;
-    @include div-position(320px, 720px);
+    @include div-position(180px, 100px);
 	}
 .list3{
 	position: $location;
-	@include div-position(500px, 720px);
+	@include div-position(350px, 100px);
 	}
 .list4{
 	position: $location;
-    @include div-position(620px, 720px);
+    @include div-position(500px, 100px);
 }
 .list5{
 	position: $location;
-	@include div-position(820px, 720px);
+	@include div-position(680px, 100px);
 }
 .list6{
 	position: $location;
-	@include div-position(950px, 720px);
+	@include div-position(760px, 100px);
 	}
-.som{
-    position: $location;
-	@include div-position(750px, 650px);
-	li{
-		text-align: left;
-    	color: white;
-    	font-size: 15px;
-	}
-}
 .footer2 {
     position: $location;
-    @include div-position(980px, 650px);
+    @include div-position(775px, 9px);
     @include div-size(80px,50px);
     background-color:blue;
+    text-align: $align;
+    font-size: 10px;
+      h7{
+	       color: white; 
+       }
     }
 .footer3{
     position: $location;
-    @include div-position(450px, 830px);
-	text-align: $align; 
-}
-.footer{
-    position: $location;
-    @include div-position(200px, 620px);
-    @include div-size(852px,350px);
-    background-color:gray;
+    @include div-position(250px, 250px);
+	  text-align: $align; 
+	  font-size: 10px;
+   }
+.example1 {
+   position: $location;
+    @include div-position(300px, 635px);
+    background-color: #A9A9A9;
+    padding: 150px 435px;
 }
