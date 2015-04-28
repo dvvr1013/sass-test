@@ -1,0 +1,168 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass";
+
+$primary-color: black;
+$font-stack: arial;
+$location: absolute;
+$align: center;
+$fsize: 25px;
+
+@mixin div-position($left-val, $top-val){
+	left: $left-val;
+	top: $top-val;
+}
+@mixin div-size($width-val, $height-val){
+	width: $width-val;
+	height: $height-val;	
+}
+
+body {
+    background-color: bisque;
+    font: 100% $font-stack;
+}
+h1 {
+    color: $primary-color;
+    text-align: $align;
+}
+h3 {
+    color: $primary-color;
+    text-align: $align;
+    font-size: 30px;
+    font-style: italic
+}
+h2{
+    color: $primary-color;
+    text-align: $align;
+}
+p {
+    font-size: 20px;
+    color: $primary-color;
+}
+
+.p1{
+    font-size: $fsize;
+    color:$primary-color;;
+    font-style: italic
+}	
+.p2{
+    font-size: $fsize;
+    color:$primary-color;
+}	
+.p3 p{
+    font-size: $fsize;
+    color: white;
+    text-align: left;
+}
+.message {
+    margin-left: auto;
+    margin-right: auto;
+	text-align: $align;
+	width: 70%;
+    }
+
+.block{
+    margin-left: auto;
+    margin-right: auto;
+	text-align: $align;    	
+ }
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background-color: #b0e0e6;
+}    
+.padding {
+    position: $location;
+    @include div-position(200px, 180px);
+    @include div-size(360px,300px);
+    background-color: #EC1E79;
+    font-color: white;
+    text-align: left;
+ }
+ .pos1 {
+     position: $location;
+	 @include div-position(562px, 180px);
+     @include div-size(503px,300px);
+  } 
+.padding2 {
+     position: $location;
+     @include div-position(200px, 484px);
+     @include div-size(360px,150px);
+     background-color:#f6de40;
+     text-align: $align;
+ }
+.padding3 {
+      position: $location;
+      @include div-position(564px, 484px);
+      @include div-size(360px,150px);
+      background-color:aqua;
+      text-align: $align;  
+  }
+  
+  .padding4 {
+      position: $location;
+      @include div-position(927px, 484px);
+      @include div-size(140px,150px);
+      background-color:SpringGreen ;
+      text-align: $align;
+   }
+
+.form-group {
+    position: $location;
+    @include div-position(350px, 650px);
+    }
+.list1{
+	position: $location;
+	@include div-position(200px, 720px);
+}
+.list2{
+	position: $location;
+    @include div-position(320px, 720px);
+	}
+.list3{
+	position: $location;
+	@include div-position(500px, 720px);
+	}
+.list4{
+	position: $location;
+    @include div-position(620px, 720px);
+}
+.list5{
+	position: $location;
+	@include div-position(820px, 720px);
+}
+.list6{
+	position: $location;
+	@include div-position(950px, 720px);
+	}
+.som{
+    position: $location;
+	@include div-position(750px, 650px);
+	li{
+		text-align: left;
+    	color: white;
+    	font-size: 15px;
+	}
+}
+.footer2 {
+    position: $location;
+    @include div-position(980px, 650px);
+    @include div-size(80px,50px);
+    background-color:blue;
+    }
+.footer3{
+    position: $location;
+    @include div-position(450px, 830px);
+	text-align: $align; 
+}
+.footer{
+    position: $location;
+    @include div-position(200px, 620px);
+    @include div-size(852px,350px);
+    background-color:gray;
+}
