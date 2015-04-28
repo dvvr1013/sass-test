@@ -1,0 +1,8 @@
+diff a/app/views/Application/index.html b/app/views/Application/index.html	(rejected hunks)
+@@ -1,5 +1,5 @@
+ #{extends 'main.html' /}
+-#{set title:'WEBSITE PROTOTYPE' /}
++#{set title:'SASS TEST: TEST 1' /}
+ 
+ 
+ <html>
